@@ -2,3 +2,54 @@
     color: red;
     background-color: orange;
    }
+#content{
+    width: 920px;
+}
+.noticia{
+    background: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}   
+body{
+    background: #007fc7;
+}
+.img-galeria{
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.borda{
+    border: 1px solid red;
+    display: inline-block;
+    padding: 5px;
+}
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+h1{
+    
+}
+
+p{
+    width: 300px;
+}
+
+
+.relative{
+    border: 1px solid red;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}

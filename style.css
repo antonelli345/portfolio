@@ -1,0 +1,57 @@
+body{
+    background: #007fc7;
+}
+
+
+#baseboard{
+    text-align: center;
+    font-weight:  bold;
+    padding: 15px;
+    margin: 50px 0px 0px 0px;
+}
+
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.content{
+    margin: 10px;
+}
+
+.fonte{
+    background: grey;
+    color: black;
+    font: 20px Arial, Helvetica, sans-serif;
+    font-weight:  bold;
+    border: 1px solid red;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: green;
+}
+
+
+
+
+
+
+
