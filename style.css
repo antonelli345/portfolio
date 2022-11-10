@@ -14,10 +14,11 @@ body {
 h1 {
     color: #4e4e4e;
     font-size: 2.5em;
+    text-shadow: black 0.05em 0.05em 0.1em
 }
 
 h2 {
-    color: #007fc7
+    color: black;
 }
 
 h3 {
@@ -34,7 +35,7 @@ a {
 
 a:link,
 a:visited {
-    color: #007fc7;
+    color: #4e4e4e;
 }
 
 a:hover {
@@ -135,6 +136,7 @@ li>a {
 
 .social_image {
     width: 32px;
+    margin-bottom: -9px;
 }
 
 .p_class {
@@ -144,9 +146,9 @@ li>a {
 
 .text_side {
     font-size: 1em;
-    padding-bottom: 5px;
     margin: 10px 0 0 5px;
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .content_side {
@@ -154,4 +156,5 @@ li>a {
     padding: 5px;
     border-radius: 5px;
     text-align: center;
+    
 }
