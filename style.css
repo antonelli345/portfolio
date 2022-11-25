@@ -49,6 +49,10 @@ li>a {
     margin: 10px;
 }
 
+div>iframe{
+    border-radius: 15px;
+}
+
 footer {
     clear: both;
     text-align: center;
@@ -103,12 +107,12 @@ footer {
 }
 
 #main_content {
-    width: 660px;
+    width: 73%;
     float: left;
 }
 
 #sidebar {
-    width: 240px;
+    width: 25%;
     float: right;
 }
 
@@ -120,6 +124,7 @@ footer {
     border-radius: 5px;
     background: white;
     text-align: center;
+    width: 95%;
 }
 
 .white {
@@ -156,6 +161,7 @@ footer {
     padding: 5px;
     border-radius: 5px;
     text-align: center;
+    width: auto;
     
 }
 
