@@ -322,7 +322,7 @@ footer {
     border-radius: 5px;
     background: white;
     text-align: justify;
-    width: 75%;
+    width: 900px;
 }
 
 .profile_image {
@@ -349,26 +349,6 @@ footer {
 
 .header_logo {
     text-align: center;
-}
-
-.content_R{
-    font-family: Poppins;
-    background: #CCC;
-    text-align: right;
-    width: 75%;
-    float: right;
-    display: inline-block;;
-    border: red solid 1px;
-}
-
-.content_L{
-    font-family: Poppins;
-    background: #CCC;
-    text-align: left;
-    width: 75%;
-    float: left;
-    display: inline-block;;
-    border: red solid 1px;
 }
 
 .justify_content{
