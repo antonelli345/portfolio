@@ -1,125 +1,4 @@
-/*Limpar formatação padrão
-* {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    line-height: 35px;
-}
-
 body {
-    font-size: 1em;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #e6e6e6;
-}
-
-
-h1 {
-    color: #4e4e4e;
-    font-size: 2.5em;
-    text-shadow: black 0.05em 0.05em 0.1em
-}
-
-h2 {
-    color: black;
-}
-
-h3 {
-    background: #CCC;
-    color: #565656;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-a:link,
-a:visited {
-    color: #4e4e4e;
-}
-
-a:hover {
-    color: #fff;
-    background: #9ad0ec;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-div>iframe{
-    border-radius: 10px;
-    height: 360px;
-}
-
-footer {
-    clear: both;
-    text-align: center;
-    padding: 20px;
-    background: #CCC;
-    text-align: center;
-    width: 100%;
-    border-top: 1px solid #565656;
-    font-weight:bold;
-    display: inline-block;
-}
-
-/*
-**** Layout ****
-*/
-
-/*ID
-
-#header {
-    background-color: #9ad0ec;
-    padding: 15px;
-    text-align: center;
-}
-
-#menubar {
-    padding: 5px;
-}
-
-#logo {
-    margin-top: 10px;
-}
-
-/* Links menubar
-
-#header a:link,
-#header a:visited {
-    color: #FFF;
-    padding: 8px 12px;
-    border-radius: 5px;
-}
-
-#header a:hover {
-    color: #9ad0ec;
-    background: #FFF;
-}
-*/
-
-/*CLASS*
-
-.content {
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    background: white;
-    text-align: center;
-    width: 75%;
-}
-
-.white {
-    color: white;
-}
-
-
-
-.justify_content{
-    text-align: justify;
-}
-*/
-/* new css*/
-/*FORMAT GENERAL*/
-
-
- body {
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -131,6 +10,7 @@ h2.red{
     font-size: 16px;
     line-height: 24px;
     color: #f75c4e;
+    margin-bottom: 0px;
 }
 h1.black{
     font-family: Poppins;
@@ -139,6 +19,7 @@ h1.black{
     font-size: 36px;
     line-height: 54px;
     color:black;
+    margin-top: 0px;
 }
 
 p.gray {
@@ -168,7 +49,7 @@ footer {
     background: #CCC;
     text-align: center;
     width: 100%;
-    border-top: 1px solid #565656;
+    border: 1px solid red;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -211,54 +92,6 @@ footer {
     color: #070F18;
 }
 
-#button_cta{
-    background: #1f7cff;
-    border-radius: 50px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 24px;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: white;
-    padding: 10px 25px 10px 25px;
-}
-
-#header_cta p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #575455;
-}
-#header_cta h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;;
-    font-size: 45px;
-    color: black;
-}
-#header_img{
-    margin-left: 42px;
-}
-#header_img img {
-    width: 100%;
-}
-
-#clients{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-#header_cliente_txt{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color:#070F18;
-}
-
 #services .text_center h3{
     font-family: Poppins;
     font-style: normal;
@@ -267,8 +100,9 @@ footer {
     line-height: 54px;
     color: #070F18;
 }
-#contact_img{
-    width: 100%;
+#project_img > img {
+    width: 90%;
+    border-radius: 10px;
 }
 #contact_form{
    margin-left: 75px;
@@ -289,19 +123,7 @@ footer {
     width: 70%;
     padding: 15px 30px 15px 30px;
 }
-#contact_form button{
-    background: #1f7cff;
-    border-radius: 50px;
-    padding: 15px 30px 15px 30px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: white;
-    border: 0;
-}
+
 #portfolio_title{
     margin-top: 15%;
 }
@@ -339,9 +161,6 @@ footer {
     text-align: center;
 }
 
-.portfolio_img img{
-    width: 100%;
-}
 
 .portfolio_img{
     padding: 20px;
@@ -353,4 +172,26 @@ footer {
 
 .justify_content{
     text-align: justify;
+}
+
+.portfolio_img{
+    border-radius: 10px;
+}
+
+.h3_color{
+    color: #f75c4e;
+}
+
+.h3_black{
+    color: black;
+}
+
+.menubar{
+    background: #CCC;
+    display: inline-block;
+    border: red solid 1px;
+}
+
+.social_image{
+    width: 50px;
 }
