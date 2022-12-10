@@ -10,11 +10,6 @@ body {
     height: 100vh;
 }
 
-.main {
-    margin: 0 15%;
-    padding-top: 180px;
-}
-
 h2.red{
     font-family: Poppins;
     font-style: normal;
@@ -22,7 +17,6 @@ h2.red{
     font-size: 16px;
     line-height: 24px;
     color: #f75c4e;
-    margin-bottom: 0px;
 }
 h1.black{
     font-family: Poppins;
@@ -31,7 +25,6 @@ h1.black{
     font-size: 36px;
     line-height: 54px;
     color:black;
-    margin-top: 0px;
 }
 
 p.gray {
@@ -55,20 +48,14 @@ div>iframe{
 
 
 footer {
-    clear: both;
-    text-align: center;
     padding: 20px;
     background: #CCC;
-    text-align: center;
     width: 100%;
     border: 1px solid red;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+
 }
-
-
 
 /*ID*/
 
@@ -123,29 +110,16 @@ footer {
     width: 90%;
     border-radius: 10px;
 }
-#contact_form{
-   margin-left: 75px;
-   text-align: left; 
-}
-#contact{
-    margin-top: 10%;
-}
-#contact_form input{
-    background: #F5F6FB;
-    border-radius: 50px;
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #575455;
-    border: 0;
-    width: 70%;
-    padding: 15px 30px 15px 30px;
-}
 
 #portfolio_title{
     margin-top: 15%;
 }
+
+#social_media_{
+    display: flex;
+    
+}
+
 
  /*CLASS*/
 
@@ -172,7 +146,7 @@ footer {
     border-radius: 100%;
     border: solid 3px #CCC;
     margin: 10px 0 0 20px;
-    float: right;
+    float: right; /*implementar display flex*/
     display: block;
 }
 
@@ -183,10 +157,6 @@ footer {
 
 .portfolio_img{
     padding: 20px;
-}
-
-.header_logo {
-    text-align: center;
 }
 
 .justify_content{
@@ -217,3 +187,12 @@ footer {
 .social_image{
     width: 50px;
 }
+
+.main {
+    margin: 0 15%;
+    padding-top: 180px;
+}
+
+
+
+
