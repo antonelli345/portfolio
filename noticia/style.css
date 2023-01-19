@@ -1,36 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    font-family: Poppins;
+    font-family: Poppins; 
+    background: #fff url(./img/fundo.png) repeat-x;
+    
 }
 
-fieldsets{  
-    padding: 1px;
-    border: 1px solid #ccc;
-    background: #f8f8f8;
-    margin-top:  1em 0;
+#container{
+    width: 750px;
+    margin: 0px auto;
 }
 
-legend{
-    font-weight: bold;
+#top{
+    height: 170px;
+    border: solid 1px red;
+    background: url(./img/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
 }
-label{
+
+#top ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#top ul li{
+    float: left;
+}
+
+#top ul a{
+    font-size: 0.9em;
     display: block;
-    cursor: pointer;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(./img/divisor.png) no-repeat left center;
+    
 }
 
-input /*[type="text"]*/{
-    width: 20em;
+#top ul .first a{
+    background: none;
+}
+
+#top ul a:hover{
+    color: #69001d;
+    
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(./img/logo.png) no-repeat left top;
+    text-indent: -3000px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
 }
 
 
-textarea{
-    width: 100%;
-    height: 10em;
-}
-
-input.radio, input.checkbox, input.submit{
-    width: auto;
-}
-
-.radio{
-    margin-right: 1em;
-}
