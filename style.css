@@ -1,7 +1,9 @@
-html, * {
+html,
+* {
     padding: 0;
     margin: 0;
     font-family: Poppins;
+    scroll-behavior: smooth;
 }
 
 /*A linha abaixo define largura como 100% do tamanho horizontal da tela e o comprimento com 100% da largura vertical*/
@@ -9,7 +11,7 @@ body {
     height: 100vh;
 }
 
-h2.red{
+h2.red {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -17,13 +19,14 @@ h2.red{
     line-height: 24px;
     color: #f75c4e;
 }
-h1.black{
+
+h1.black {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
-    color:black;
+    color: black;
 }
 
 p.gray {
@@ -36,11 +39,11 @@ p.gray {
 }
 
 a{
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
-div>iframe{
+div>iframe {
     border-radius: 10px;
     height: 360px;
 }
@@ -49,10 +52,8 @@ footer {
     padding: 20px;
     background: #CCC;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
-
-
 
 /*ID*/
 
@@ -65,16 +66,19 @@ footer {
     color: #070F18;
     margin: 40px 40px 40px 20px;
 }
-#menu{
+
+#menu {
     flex: 1;
     align-items: center;
 }
-#menu ul{
+
+#menu ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
-#menu li{
+
+#menu li a{
     padding: 10px;
     display: inline-block;
     font-style: normal;
@@ -89,35 +93,37 @@ footer {
 }
 
 
-#menu li:hover {
+#menu li a:hover{
     background-color: #f75c4e;
     border-radius: 1em;
     box-shadow: 3px 3px 3px #57545595;
+
 }
 
-#project_img > img {
+#project_img>img {
     width: 360px;
     border-radius: 10px;
     box-shadow: 4px 4px 24px 6px rgba(0, 0, 0, 0.1);
 }
 
-#project_img{
+#project_img {
     position: relative;
     width: 100%;
     display: inline;
 }
 
-#portfolio_title{
+#portfolio_title {
     margin-top: 15%;
 }
 
-#social_media{
+#social_media {
     display: flex;
     gap: 32px;
     justify-content: center;
 }
 
-#social_media a, #social_media a h3{
+#social_media a,
+#social_media a h3 {
     display: flex;
     align-items: flex-end;
     font-size: 30px;
@@ -125,16 +131,20 @@ footer {
     line-height: 100%;
 }
 
- /*CLASS*/
+#personalinformation_title, #education_title, #jobs_title, #projects_title, #social_title, #github_title, #portfolio_title, #social_title{
+    scroll-margin-top: 150px;
+}
+
+/*CLASS*/
 
 
- .container {
+.container {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
 }
 
-.content{
+.content {
     font-family: Poppins;
     padding: 20px;
     margin-bottom: 20px;
@@ -149,31 +159,32 @@ footer {
     border-radius: 100%;
     border: solid 3px #CCC;
     margin: 10px 0 0 20px;
-    float: right; /*implementar display flex*/
+    float: right;
+    /*implementar display flex*/
     display: block;
 }
 
- .text_center{
+.text_center {
     text-align: center;
 }
 
-.justify_content{
+.justify_content {
     text-align: justify;
 }
 
-.portfolio_img{
+.portfolio_img {
     border-radius: 10px;
 }
 
-.h3_color{
+.h3_color {
     color: #f75c4e;
 }
 
-.h3_black{
+.h3_black {
     color: black;
 }
 
-.menubar{
+.menubar {
     width: 100%;
     background: #CCC;
     display: flex;
@@ -182,7 +193,7 @@ footer {
     z-index: 1;
 }
 
-.social_image{
+.social_image {
     width: 50px;
 }
 
@@ -191,7 +202,4 @@ footer {
     padding-top: 180px;
 
 }
-
-
-
 
